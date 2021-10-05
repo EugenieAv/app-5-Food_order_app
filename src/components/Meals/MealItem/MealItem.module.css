@@ -1,0 +1,24 @@
+.li {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1rem;
+}
+
+.li > div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.police{
+    font-weight:900;
+    font-size: larger;
+} 
+.description {
+    font-style: italic;
+}
+.price {
+    color: #864727;
+}
+
